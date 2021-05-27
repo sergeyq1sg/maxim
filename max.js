@@ -3,3 +3,6 @@ try {
 } catch (error) {
   console.log(error.message);
 }
+for(let item of string){
+    console.log(item)
+}
