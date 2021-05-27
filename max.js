@@ -1,8 +1,9 @@
 try {
+  let a = "suka";
   throw new Error("hekllo");
 } catch (error) {
-  console.log(error.message);
+  console.log("suka", error.message);
 }
-for(let item of string){
-    console.log(item)
+for (let item of string) {
+  console.log(item);
 }
